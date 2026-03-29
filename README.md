@@ -64,7 +64,7 @@
 ```bash
 git clone https://github.com/iljavaleev/Dodo
 
-cd Dodod 
+cd Dodo 
 python -m venv venv && source venv/bin/activate
 pip install .
 main --video samples/video2.mp4 --output output.mp4
