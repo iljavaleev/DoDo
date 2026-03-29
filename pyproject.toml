@@ -1,0 +1,14 @@
+
+[project]
+name = "dodo"
+version = "0.1.0"
+dependencies = [
+   "ultralytics==8.4.31"
+]
+
+[project.scripts]
+main = "dodo.main:main"
+
+[build-sysstem]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
