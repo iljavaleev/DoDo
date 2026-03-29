@@ -183,6 +183,9 @@ def main():
     else:
         print("Ошибка чтения видео")
 
+    table_status["time"].append(cap.get(cv2.CAP_PROP_POS_MSEC) / 1000)
+    table_status["status"].append(0)
+    
     cap.release()
     out.release()
     cv2.destroyAllWindows()
