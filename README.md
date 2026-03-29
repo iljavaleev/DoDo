@@ -62,9 +62,9 @@
 ## Установка и использование
 
 ```bash
-git clone https://github.com/iljavaleev/Dodo
+git clone https://github.com/iljavaleev/DoDo.git
 
-cd Dodo 
+cd DoDo 
 python -m venv venv && source venv/bin/activate
 pip install .
 main --video samples/video2.mp4 --output output.mp4
